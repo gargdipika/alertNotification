@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-container {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  width: 60vw;
+  box-shadow: darkslategrey;
+  margin-bottom: 10px;
+}
+.inner-container {
+  margin-left: 30px;
+  height: 80px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  height: 15px;
+  width: 15px;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+}
+.heading {
+  font-size: 20px;
+  margin: 0;
+}
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.description {
+  color: #475569;
+}

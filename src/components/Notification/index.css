@@ -1,0 +1,5 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  align-items: center;
+}
